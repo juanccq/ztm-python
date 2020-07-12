@@ -13,6 +13,6 @@ msg[ 'subject' ] = 'Great news for you'
 with smtplib.SMTP( host='smtp.gmail.com', port=587 ) as smtp:
 	smtp.ehlo()
 	smtp.starttls()
-	smtp.login('jresearch2dd@gmail.com', 'downaccount.1')
+	smtp.login('jresearch2dd@gmail.com', '#####')
 	smtp.send_message( msg )
 	print( 'Email was sent' )
