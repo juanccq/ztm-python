@@ -24,3 +24,5 @@ button.click()
 output_message = chrome_browser.find_element_by_id('display')
 
 assert 'my name is juan' in output_message.text
+
+chrome_browser.quit()
